@@ -5,13 +5,16 @@ Go Ban Game is a Python-based implementation of the classic board game Go, desig
 **Features**
 
 *Mutual Exclusion:* Demonstrates an OS concept where multiple players cannot make moves at the same time, preventing deadlocks and ensuring orderly turn-based gameplay.
+
 *Interactive Game Board:* Players can place stones, form groups, and capture opponents' stones.
+
 *Visual Feedback:* Real-time graphical representation of the Go board and pieces, enhancing user interaction.
 
 **Project Structure**
 
 *Game Logic (go.py):*
 This file contains the core game logic, including: Stone placement, Group management, Enforcement of Go game rules.
+
 *Graphical User Interface (main.py):*
 This module handles the user interface, including: Drawing the game board and stones, Managing player interactions and moves. 
 
@@ -25,8 +28,11 @@ Tkinter (for GUI)
 **How to Execute**
 
 Clone this repository.
+
 Ensure Python 3.x is installed on your system.
+
 Install Tkinter (if not already installed).
+
 Run the following command to start the game:
 bash
 Copy code
